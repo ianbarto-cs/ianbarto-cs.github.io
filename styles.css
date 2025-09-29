@@ -18,6 +18,20 @@ header {
     flex-wrap: wrap;
 }
 
+.topbutton {
+    color: #F0E2C5;
+    background: transparent;
+    border: 2px solid transparent;
+    font-size: 1.2rem; /* Larger font size for buttons */
+    padding: 12px 25px; /* Increased padding for better size */
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.topbutton:hover {
+    border-color: #F0E2C5;
+}
+
 .icon-container {
     display: flex;
     gap: 15px;
