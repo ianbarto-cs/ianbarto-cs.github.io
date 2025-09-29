@@ -1,14 +1,16 @@
-.socials {
-  display: flex;             /* puts icons in a row */
-  gap: 10px;                 /* space between icons */
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  
-  width: fit-content;        /* shrink to fit children */
-  margin: 0 auto;            /* center the whole container */
-  padding: 10px;             /* optional: breathing room */
+.icon-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
 }
+
 .social {
-  width: 5px;               /* control icon size */
-  height: 5px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.social:hover {
+    transform: scale(1.1);
 }
