@@ -1,20 +1,22 @@
+/* styles.css */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     color: #bebebe;
     background-color: rgb(27, 27, 27);
 }
 
 header {
-    background-color: #101010;
+    background-color: #a4a4a4;
     color: #FFFFFF;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px rgba(139, 139, 139, 0.2);
     flex-wrap: wrap;
 }
 
