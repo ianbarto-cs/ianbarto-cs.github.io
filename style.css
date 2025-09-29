@@ -1,3 +1,8 @@
-    body {
-        background-color: rgb(67, 65, 65);
-    }
+html {
+  filter: grayscale(1); /* Applies a full grayscale effect */
+}
+
+/* Alternatively, you can target the body */
+body {
+  filter: grayscale(1);
+}
