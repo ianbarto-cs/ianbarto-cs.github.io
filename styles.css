@@ -25,6 +25,7 @@ header {
     background: #a4a4a4;
     border: 1px solid transparent;
     font-size: 1.2rem; /* Larger font size for buttons */
+    border-radius: 15px;
     padding: 12px 25px; /* Increased padding for better size */
     cursor: pointer;
     transition: all 0.2s ease;
