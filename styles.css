@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #a4a4a4;
+    background-color: #686767;
     color: #FFFFFF;
     padding: 15px;
     display: flex;
@@ -22,8 +22,8 @@ header {
 
 .topbutton {
     color: #9feafe;
-    background: transparent;
-    border: 2px solid transparent;
+    background: #a4a4a4;
+    border: 1px solid transparent;
     font-size: 1.2rem; /* Larger font size for buttons */
     padding: 12px 25px; /* Increased padding for better size */
     cursor: pointer;
