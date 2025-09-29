@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
 
     <style>
     body {
@@ -13,7 +14,21 @@
     h1 {
       font-weight: 700; /* bold Oswald */
     }
-    p {
+    p {.socials {
+  display: flex;             /* puts icons in a row */
+  gap: 10px;                 /* space between icons */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  
+  width: fit-content;        /* shrink to fit children */
+  margin: 0 auto;            /* center the whole container */
+  padding: 10px;             /* optional: breathing room */
+}
+.social {
+  width: 5px;               /* control icon size */
+  height: 5px;
+}
+
       font-weight: 300; /* light Oswald */
     }
   </style>
