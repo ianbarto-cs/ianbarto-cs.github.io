@@ -11,18 +11,19 @@ body {
 header {
     background-color: #686767;
     color: #FFFFFF;
-    padding: 15px;
+    padding: 5px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     gap: 15px;
     box-shadow: 2px 2px 2px rgba(139, 139, 139, 0.2);
     flex-wrap: wrap;
+
 }
 
 .topbutton {
     color: #9feafe;
-    background: #a4a4a4;
+    background: transparent;
     border: 1px solid transparent;
     font-size: 1.2rem; /* Larger font size for buttons */
     border-radius: 15px;
