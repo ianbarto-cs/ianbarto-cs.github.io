@@ -21,7 +21,7 @@ header {
 }
 
 .topbutton {
-    color: #F0E2C5;
+    color: #9feafe;
     background: transparent;
     border: 2px solid transparent;
     font-size: 1.2rem; /* Larger font size for buttons */
@@ -31,7 +31,7 @@ header {
 }
 
 .topbutton:hover {
-    border-color: #F0E2C5;
+    border-color: #72f0e0;
 }
 
 .icon-container {
