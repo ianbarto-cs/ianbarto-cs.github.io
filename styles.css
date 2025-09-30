@@ -132,7 +132,7 @@ p {
 }
 
 .education_links a { 
-  color: green;
+  color: rgb(207, 252, 232);
   background-color: transparent;
   text-decoration: none;
 }
