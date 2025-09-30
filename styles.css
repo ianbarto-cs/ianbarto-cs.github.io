@@ -4,8 +4,8 @@ body {
     padding: 0;
     font-family: 'Sansation', sans-serif;
     font-weight: 700;
-    color: #2d2d2d;
-    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    background-color: rgb(12, 12, 12);
 }
 
 /* Font */
@@ -47,7 +47,7 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(0, 0, 0);
     color: #242424;
     padding: 5px;
     display: flex;
