@@ -130,3 +130,9 @@ p {
     width: 45%;
     margin-left: 50px;
 }
+
+.education_links:link { 
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
