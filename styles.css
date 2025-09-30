@@ -131,7 +131,7 @@ p {
     margin-left: 50px;
 }
 
-.education_links:link { 
+.education_links a { 
   color: green;
   background-color: transparent;
   text-decoration: none;
