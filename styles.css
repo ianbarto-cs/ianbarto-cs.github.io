@@ -2,14 +2,52 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Sansation', sans-serif;
     font-weight: 700;
-    color: #bebebe;
-    background-color: rgb(111, 111, 111);
+    color: #ffffff;
+    background-color: rgb(44, 44, 44);
 }
 
+/* Font */
+.sansation-light {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.sansation-regular {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sansation-bold {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sansation-light-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.sansation-regular-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.sansation-bold-italic {
+  font-family: "Sansation", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Header */
 header {
-    background-color: rgb(67, 67, 67);
+    background-color: rgb(44, 44, 44);
     color: #FFFFFF;
     padding: 5px;
     display: flex;
@@ -35,6 +73,8 @@ header {
 .topbutton:hover {
     border-color: #72f0e0;
 }
+
+/* Social Icons */
 
 .icon-container {
     display: flex;
